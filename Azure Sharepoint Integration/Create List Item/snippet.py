@@ -17,7 +17,7 @@ def handler(context, inputs):
     sessiontoken = create_new_session(tokenUrl,tenantId,clientId,clientSecret);
     createNewItem = create_new_item(vmName,cpu,memory,graphUrl,listId,sideId,sessiontoken)
 
-# Creating new session ##################################################################################
+# Creating new session ###################################################################################
 def create_new_session(baseUrl,tenantId,clientId,clientSecret):
 
     url = baseUrl + tenantId + "/oauth2/v2.0/token"
@@ -48,7 +48,7 @@ def create_new_session(baseUrl,tenantId,clientId,clientSecret):
     else:
         return ("Error code : ",response.status_code)
 
-# Creating a new Item ##################################################################################
+# Creating a new Item ###################################################################################
 def create_new_item(vmName,cpu,memory,baseUrl,listId,sideId,accessToken):
 
     url = baseUrl + sideId + "/lists/" + listId + "/items"
