@@ -68,7 +68,7 @@ def create_new_item(vmName,cpu,memory,baseUrl,listId,sideId,accessToken):
            "fields": {
             "name": "{}".format(name),
             "cpu": "{}".format(cpu),
-            "memory": "{}".format(memory)
+            "memory": "{}".format(memory),
             "cluster": "{}".format(cluster),
             "datacenter": "{}".format(datacenter)
         }
