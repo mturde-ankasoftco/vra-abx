@@ -12,6 +12,11 @@ You can create a refresh token by your vRealize Automation Cloud Assembly extens
 * Please note that the runtime of action-based extensibility in vRealize Automation Cloud Assembly is Linux-based.
 Therefore, any Python dependencies compiled in a Windows environment might make the generated ZIP package unusable for the creation of extensibility actions. Therefore, you must use a Linux shell.
 
-## Necessary Python Module
+## Necessary Python Modules
     json                                    JSON is a simple data format developed to enable communication between different languages
     requests				The requests module allows you to send HTTP requests using Python
+
+This's a image of some defined variable
+![inputAction](https://github.com/mturde-ankasoftco/vra-abx/blob/main/Refresh%20Token/media/inputAction.png)
+This's output of refresh token action
+![inputAction](https://github.com/mturde-ankasoftco/vra-abx/blob/main/Refresh%20Token/media/detailsAction.png)
