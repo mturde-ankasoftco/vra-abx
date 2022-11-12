@@ -4,9 +4,11 @@ import urllib3
 urllib3.disable_warnings()
     
 def handler(context, inputs):
-    vmName = inputs["vmName"]
+    virtualMachineName = inputs["name"]
     cpu = inputs["cpu"]
     memory = inputs["memory"]
+    cluster = inputs["cluster"]
+    datacenter = inputs["datacenter"]
     tokenUrl = inputs["sharepoint_token_url"]
     graphUrl = inputs["sharepoint_graph_url"]
     tenantId = context.getSecret(inputs["sharepoint_tenant_id"])
@@ -64,9 +66,11 @@ def create_new_item(vmName,cpu,memory,baseUrl,listId,sideId,accessToken):
     print('Creating a new item...')
     payload =  {
            "fields": {
-            "Title": "{}".format(vmName),
-            "b": "{}".format(cpu),
-            "_x0063_": "{}".format(memory)
+            "name": "{}".format(name),
+            "cpu": "{}".format(cpu),
+            "memory": "{}".format(memory)
+            "cluster": "{}".format(cluster),
+            "datacenter": "{}".format(datacenter)
         }
     }
     response = requests.post(url, headers=headers, data=json.dumps(payload), proxies=proxies, verify=False, timeout=10)
