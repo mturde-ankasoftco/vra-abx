@@ -8,8 +8,12 @@ Actions are executed based on lifecycle events, using functions-as-a-service (Fa
 
 ### Bearer token
 
-Its main purpose to get a bearer token from vRealize Automation
+Its main purpose is to get a bearer token from vRealize Automation
 
 ### Refresh token
 
-Its main purpose to get a refresh token from vRealize Automation
+Its main purpose is to get a refresh token from vRealize Automation
+
+### Azure SharePoint Integration
+
+Its main purpose is to create a new list item in SharePoint from vRealize Automation.
