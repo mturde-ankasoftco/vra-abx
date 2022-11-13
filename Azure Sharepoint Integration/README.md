@@ -2,7 +2,6 @@
 
 You can create a new list item in azure sharepoint by your vRealize Automation Cloud Assembly extensibility action.
 
-# Inputs
 ## Action Inputs:
     name				        The name of virtual machine
     cpu                                     resource amount of vCPU
