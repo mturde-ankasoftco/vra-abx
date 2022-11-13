@@ -1,7 +1,5 @@
 # How to create new list item in azure sharepoint
-
 You can create a new list item in azure sharepoint by your vRealize Automation Cloud Assembly extensibility action.
-
 ## Action Inputs:
     name				        The name of virtual machine
     cpu                                     resource amount of vCPU
@@ -20,7 +18,7 @@ You can create a new list item in azure sharepoint by your vRealize Automation C
 * Please note that the runtime of action-based extensibility in vRealize Automation Cloud Assembly is Linux-based.
 Therefore, any Python dependencies compiled in a Windows environment might make the generated ZIP package unusable for the creation of extensibility actions. Therefore, you must use a Linux shell.
 
-## Necessary Python Modules
+## Python Modules
     json                                    JSON is a simple data format developed to enable communication between different languages
     requests				The requests module allows you to send HTTP requests using Python
     urllib3                                 Urllib3 is a powerful, user-friendly HTTP client for Python
