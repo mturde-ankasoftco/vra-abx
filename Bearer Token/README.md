@@ -17,6 +17,9 @@ Therefore, any Python dependencies compiled in a Windows environment might make 
     requests				The requests module allows you to send HTTP requests using Python
 
 This's a image of some defined variable
+
 ![inputAction](https://github.com/mturde-ankasoftco/vra-abx/blob/main/Bearer%20Token/media/inputAction.png)
+
 This's output of bearer token action
+
 ![detailsAction](https://github.com/mturde-ankasoftco/vra-abx/blob/main/Bearer%20Token/media/detailsAction.png)
