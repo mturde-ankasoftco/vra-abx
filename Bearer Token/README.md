@@ -22,4 +22,4 @@ This's a image of some defined variable
 
 This's output of bearer token action
 
-![detailsAction](https://github.com/mturde-ankasoftco/vra-abx/blob/main/Bearer%20Token/media/detailsAction.png)
+![detailsAction](https://github.com/mturde-ankasoftco/vra-abx/blob/main/Bearer%20Token/media/detailsAction1.png)
