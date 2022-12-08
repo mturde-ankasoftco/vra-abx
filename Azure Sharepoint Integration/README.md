@@ -1,5 +1,5 @@
 # How to create new list item in azure sharepoint
-You can create a new list item in azure sharepoint by your vRealize Automation Cloud Assembly extensibility action.
+You can create a new list item in azure sharepoint by your vRealize Aria Automation Cloud Assembly extensibility action.
 ## Action Inputs:
     name				        The name of virtual machine
     cpu                                     resource amount of vCPU
